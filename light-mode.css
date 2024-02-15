@@ -1,0 +1,115 @@
+body.light-mode {
+  background-image: linear-gradient(#6f6f71, #bdb7aa);
+}
+
+.light-mode .navigation-bar {
+  background-color: #dbdbdbca;
+  /* color: #323232; */
+}
+
+.light-mode a {
+  color: #323232;
+}
+
+.light-mode .icon {
+  filter: invert(0);
+}
+
+.light-mode .scrollToTop {
+  filter: invert(1);
+}
+
+.light-mode .main {
+  background-color: #ffffff;
+  background-image: none;
+}
+
+.light-mode .email-form,
+.light-mode .h2-form,
+.light-mode .footer,
+.light-mode .footer-links a,
+.light-mode #submit,
+.light-mode #subscribe,
+.light-mode .aboutUs,
+.light-mode .pricing-container,
+.light-mode .pricing-btn,
+.light-mode .reviews,
+.light-mode .contact {
+  color: #79746a;
+}
+
+.light-mode .scrollToTop:hover {
+  background-color: #364050;
+}
+
+.light-mode .loginForm-box {
+  background: linear-gradient(#dad7d0, #dad7d0);
+  box-shadow: 0 0 20px #b3c2ff;
+}
+
+.light-mode .pricing-box,
+.light-mode .img {
+  box-shadow: 0 10px 20px #a5a5a5;
+}
+
+.light-mode .pricing-container {
+  background: radial-gradient(#f1f0ed, #edebe6, #e2e0db, #dad7d0);
+  box-shadow: 0 0 20px #b3c2ff;
+}
+
+.light-mode .images {
+  background: url(background/Background\ -\ light.jpg);
+  box-shadow: 0 0 20px #b3c2ff;
+}
+
+.light-mode .gallery {
+  background: url(background/Background\ -\ light.jpg);
+}
+
+.light-mode .aboutUs {
+  background: linear-gradient(
+      180deg,
+      rgba(218, 215, 208, 0.111) 0%,
+      rgba(218, 215, 208, 0.955) 100%
+    ),
+    url(background/Background\ -\ light.jpg);
+}
+
+.light-mode .navigation-bar.scrolled {
+  background-color: #ffffff;
+  box-shadow: 0 0 35px #545454;
+}
+
+.light-mode .footer,
+.light-mode .pricing-container,
+.light-mode .pricing-box,
+.light-mode .reviews,
+.light-mode .contact {
+  background-color: #dad7d0;
+}
+
+.light-mode .footer-social a {
+  background: linear-gradient(to bottom, #b8bcff, #807e75);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light-mode #submit:hover,
+.light-mode #subscribe:hover,
+.light-mode .pricing-btn:hover {
+  background-color: #a9a696;
+  box-shadow: 0 0 7px 5px #fff;
+  color: #fff;
+}
+
+.light-mode #submit:active,
+.light-mode #subscribe:active,
+.light-mode .pricing-btn:active {
+  background-color: #a9a696;
+  box-shadow: 0 0 3px 2px #fff;
+}
+
+.light-mode input::placeholder {
+  color: #aeac9c;
+}

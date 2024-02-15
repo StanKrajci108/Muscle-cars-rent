@@ -1,0 +1,243 @@
+@media (max-width: 768px) {
+  .nav-container {
+    background-color: #03051ca7;
+    align-items: center;
+    position: relative;
+    height: 90px;
+    z-index: 100;
+    box-shadow: 0 10px 30px #868686;
+  }
+  .navigation-bar {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 90px;
+    background-color: #03051c;
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+    background-color: #03051c;
+  }
+
+  .menu a {
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+  }
+
+  .light-mode .menu {
+    background-color: #dbdbdb;
+    color: #323232;
+  }
+
+  .light-mode .navigation-bar {
+    background-color: #dbdbdb;
+    color: #323232;
+    border-top: #9c9c9c 2px solid;
+  }
+
+  .light-mode .logo-mobile,
+  .light-mode .menu-icon {
+    filter: invert(1);
+  }
+
+  .light-mode .nav-container {
+    background-color: #dbdbdb;
+  }
+
+  .nav-container nav ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    margin-top: 18px;
+    margin-bottom: 22px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .images,
+  .pricing-container {
+    flex-direction: column;
+    flex: auto;
+    gap: 150px;
+    padding: 80px 30px;
+  }
+
+  .container-images,
+  .pricing-offer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    padding: 20px;
+  }
+
+  .pricing-container {
+    margin: 100px 20px;
+  }
+
+  .pricing-box {
+    padding: 50px 0;
+  }
+
+  .pricing-box h3 {
+    font-size: 3rem;
+  }
+
+  .pricing-box h4 {
+    font-size: 1.8rem;
+  }
+
+  .pricing-box h5,
+  .pricing-box li,
+  .pricing-btn,
+  #submit,
+  #subscribe,
+  .footer-links a {
+    font-size: 1.5rem;
+  }
+
+  .review-box,
+  .contact-box {
+    flex-direction: column;
+    gap: 100px;
+    padding: 80px;
+    font-size: larger;
+  }
+
+  .our-gallery {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 15px;
+    padding: 50px 30px;
+  }
+
+  .gallery-img:hover {
+    transform: scale(1.1);
+  }
+
+  .menu-icon {
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 25px;
+    height: 70px;
+    font-size: 2rem;
+    z-index: 100;
+    color: aliceblue;
+  }
+
+  .icon {
+    width: 70px;
+  }
+
+  .logo-mobile {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    height: 70px;
+    z-index: 100;
+  }
+
+  .aboutUs-box {
+    flex-direction: column;
+    gap: 40px;
+    padding: 70px 50px;
+  }
+
+  .p-aboutUs {
+    font-size: 1.5rem;
+  }
+
+  .h2-aboutUs,
+  .h2-form,
+  .pricing-container h2,
+  .reviews-container h2,
+  .contact-container h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  .loginForm-box {
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 auto;
+    width: calc(100% - 60px);
+    padding: 50px;
+  }
+
+  .email-form {
+    width: 100%;
+  }
+
+  .email-form label,
+  .email-form a {
+    font-size: 1.5rem;
+  }
+
+  #email,
+  #password,
+  #confirmPassword {
+    width: 70%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+
+  #email-newsletter {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.4rem;
+  }
+
+  .h2-form {
+    text-align: center;
+    padding: 0;
+    width: 70%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .footer-links {
+    padding: 30px 0;
+  }
+
+  .footer-social {
+    padding: 30px 0;
+  }
+
+  .newsletter h2 {
+    font-size: 2.6rem;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .navigation-bar {
+    display: block !important;
+  }
+}
