@@ -36,6 +36,8 @@ window.addEventListener("scroll", () => {
 });
 
 // Smooth scroll to top with jQuery
+const scrollToTopButton = document.querySelector(".scrollToTop");
+
 $(scrollToTopButton).click(function (e) {
   e.preventDefault();
   $("html, body").animate({ scrollTop: 0 }, "1000");
@@ -57,7 +59,7 @@ switchButton.addEventListener("click", (event) => {
 });
 
 // When the user scrolls down 1000px from the top of the document, show the button
-const scrollToTopButton = document.querySelector(".scrollToTop");
+
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 1000) {
