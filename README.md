@@ -1,2 +1,2 @@
 # Muscle-cars-rent
-Fully responsive and with passion done website oriented to the rental of american muscle cars.
+Fully responsive and with passion done website is oriented to the rental of American muscle cars.
