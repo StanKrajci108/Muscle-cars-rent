@@ -325,6 +325,7 @@ body.dark-mode {
   width: 100px;
   border-radius: 50%;
   margin-bottom: 15px;
+  box-shadow: 0 0 20px #b3c2ff;
 }
 
 .review-box h3 {
@@ -492,6 +493,34 @@ body.dark-mode {
   align-items: center;
   height: 500px;
   color: #fff;
+}
+
+.email-form #email,
+.email-form #password,
+.email-form #confirmPassword,
+.contact-form #name,
+.contact-form #email-contact,
+.contact-form #message,
+.newsletter-form #email-newsletter {
+  /* width: 100%; */
+  font-size: 1rem;
+  border-radius: 15px;
+  border: 1px solid #7174dd;
+  padding: 10px 10px;
+  margin-bottom: 8px;
+  color: #03051c;
+  box-shadow: inset 2px 5px 10px #18125e;
+}
+
+.email-form #email:focus,
+.email-form #password:focus,
+.email-form #confirmPassword:focus,
+.contact-form #name:focus,
+.contact-form #email-contact:focus,
+.contact-form #message:focus,
+.newsletter-form #email-newsletter:focus {
+  outline: none;
+  border: 2px inset #b3c2ff;
 }
 
 .email-form a {

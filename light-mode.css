@@ -113,3 +113,25 @@ body.light-mode {
 .light-mode input::placeholder {
   color: #aeac9c;
 }
+
+.light-mode .email-form #email,
+.light-mode .email-form #password,
+.light-mode .email-form #confirmPassword,
+.light-mode .contact-form #name,
+.light-mode .contact-form #email-contact,
+.light-mode .contact-form #message,
+.light-mode .newsletter-form #email-newsletter {
+  box-shadow: inset 2px 5px 10px #8c7c6f9a;
+  border: 1px solid #e2e0db;
+}
+
+.light-mode .email-form #email:focus,
+.email-form #password:focus,
+.email-form #confirmPassword:focus,
+.contact-form #name:focus,
+.contact-form #email-contact:focus,
+.contact-form #message:focus,
+.newsletter-form #email-newsletter:focus {
+  outline: none;
+  border: 2px inset #b3c2ff;
+}
