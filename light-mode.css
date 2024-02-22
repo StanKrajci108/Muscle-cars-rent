@@ -126,12 +126,12 @@ body.light-mode {
 }
 
 .light-mode .email-form #email:focus,
-.email-form #password:focus,
-.email-form #confirmPassword:focus,
-.contact-form #name:focus,
-.contact-form #email-contact:focus,
-.contact-form #message:focus,
-.newsletter-form #email-newsletter:focus {
+.light-mode .email-form #password:focus,
+.light-mode .email-form #confirmPassword:focus,
+.light-mode .contact-form #name:focus,
+.light-mode .contact-form #email-contact:focus,
+.light-mode .contact-form #message:focus,
+.light-mode .newsletter-form #email-newsletter:focus {
   outline: none;
-  border: 2px inset #b3c2ff;
+  border: 1px inset #b3c2ff;
 }
