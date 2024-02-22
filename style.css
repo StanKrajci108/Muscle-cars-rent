@@ -520,7 +520,7 @@ body.dark-mode {
 .contact-form #message:focus,
 .newsletter-form #email-newsletter:focus {
   outline: none;
-  border: 2px inset #b3c2ff;
+  border: 2px solid #b3c2ff;
 }
 
 .email-form a {
