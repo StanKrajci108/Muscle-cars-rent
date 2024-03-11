@@ -16,6 +16,11 @@
     display: none;
   }
 
+  .bg-slide h1,
+  .bg-slide h2 {
+    font-size: 3rem;
+  }
+
   .menu {
     display: flex;
     flex-direction: column;
