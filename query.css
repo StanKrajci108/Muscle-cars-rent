@@ -85,6 +85,7 @@
 
   .pricing-container {
     margin: 100px 20px;
+    padding: 0 10px;
   }
 
   .pricing-box {
@@ -92,11 +93,11 @@
   }
 
   .pricing-box h3 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .pricing-box h4 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .pricing-box h5,
@@ -105,7 +106,7 @@
   #submit,
   #subscribe,
   .footer-links a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .review-box,
@@ -140,7 +141,7 @@
   }
 
   .icon {
-    width: 70px;
+    width: 50px;
   }
 
   .logo-mobile {
@@ -159,7 +160,7 @@
   }
 
   .p-aboutUs {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .h2-aboutUs,
