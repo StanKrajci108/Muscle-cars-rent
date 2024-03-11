@@ -126,7 +126,7 @@
   .menu-icon {
     position: absolute;
     display: block;
-    right: 15px;
+    right: 10px;
     top: 25px;
     height: 70px;
     font-size: 2rem;
@@ -141,9 +141,9 @@
   .logo-mobile {
     display: block;
     position: absolute;
-    top: 10px;
+    top: 15px;
     left: 15px;
-    height: 70px;
+    height: 60px;
     z-index: 100;
   }
 
