@@ -126,9 +126,9 @@
   .menu-icon {
     position: absolute;
     display: block;
-    right: 10px;
+    right: 8px;
     top: 25px;
-    height: 70px;
+    height: 60px;
     font-size: 2rem;
     z-index: 100;
     color: aliceblue;
