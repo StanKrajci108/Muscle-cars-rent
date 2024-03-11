@@ -169,8 +169,12 @@
   .reviews-container h2,
   .contact-container h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
+  }
+
+  .pricing-container h2 {
+    padding-top: 50px;
   }
 
   .loginForm-box {
