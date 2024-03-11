@@ -113,7 +113,7 @@
   .contact-box {
     flex-direction: column;
     gap: 100px;
-    padding: 80px;
+    padding: 50px;
     font-size: larger;
   }
 
