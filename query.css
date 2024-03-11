@@ -183,23 +183,25 @@
     gap: 40px;
     margin: 0 auto;
     width: calc(100% - 60px);
-    padding: 50px;
+    padding: 40px 0;
   }
 
   .email-form {
     width: 100%;
+    height: auto;
+    padding: 20px 0;
   }
 
   .email-form label,
   .email-form a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   #email,
   #password,
   #confirmPassword {
-    width: 70%;
-    height: 50px;
+    width: 80%;
+    height: 40px;
     border-radius: 15px;
     border: none;
     padding: 0 20px;
@@ -207,7 +209,7 @@
   }
 
   #email-newsletter {
-    padding: 15px;
+    padding: 25px;
     border-radius: 10px;
     border: none;
     font-size: 1.4rem;
@@ -234,7 +236,7 @@
   }
 
   .newsletter h2 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
 
   .newsletter {
@@ -242,7 +244,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
+    padding: 20px;
+  }
+
+  .newsletter-form {
+    justify-content: center;
+  }
+
+  #subscribe {
+    padding: 10px;
   }
 }
 
